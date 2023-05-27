@@ -1,0 +1,63 @@
+.userinfo{
+    width: 50%;
+    padding: 10px;
+}
+.userinfo__heading{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+.userinfo__center{
+    padding: 10px;
+}
+.userinfo__main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.userinfo__bio{
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 0 20px;
+    margin-top: 20px;
+}
+.selectUser{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.selectUser__paper{
+    border: 2px dotted black;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.spinner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.failed{
+    display: flex;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 1110px) {
+    .userinfo {
+      width: 100%;
+      margin-top: 30px;
+      border-top: 1px solid lightgray;
+    }
+    .personalBox{
+        text-align: center;
+    }
+  }

@@ -1,0 +1,57 @@
+.userlist {
+  width: 50%;
+  border-right: 1px solid grey;
+  padding: 10px;
+}
+.userlist__heading {
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.userlist__users {
+  height: 85%;
+  overflow-y: scroll;
+}
+.userlist__user {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  background-color: aliceblue;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 9px 0;
+  border: 1px solid lightgrey;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+.userlist__pagination {
+  display: flex;
+  justify-content: center;
+  margin: 10px 0;
+}
+.spinner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.failed {
+  display: flex;
+  flex-direction: column;
+}
+
+.userlist__users::-webkit-scrollbar {
+  display: none;
+}
+
+@media only screen and (max-width: 1110px) {
+  .userlist {
+    width: 100%;
+    border: none;
+  }
+}

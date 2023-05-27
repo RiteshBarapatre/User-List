@@ -1,0 +1,33 @@
+.app{
+    display: flex;
+    padding: 20px;
+    width: 100%;
+    justify-content: center;
+    height: 100vh;
+}
+.elements{
+    display: flex;
+    width: 85%;
+    background-color: whitesmoke;
+    padding: 10px 0;
+    height:100%;
+}
+@media only screen and (max-width: 1110px) {
+    .app{
+        padding: 5px;
+    }
+    .elements {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+@media only screen and (max-height: 1153px) {
+    .app{
+        height: 100%;
+    }
+    .elements {
+      height: 90%;
+    }
+  }
